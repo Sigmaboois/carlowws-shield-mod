@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "carlowws-shield-mod",
+  "version": "1.0.0",
+  "name": "Carloww's Shield Mod",
+  "description": "Makes opponent's shield translucent when disabled.",
+  "authors": ["Carloww"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.carloww.shieldmod.CarlowwsShieldMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.x"
+  }
+}
